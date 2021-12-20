@@ -48,12 +48,10 @@ p {
 .prints-img-desktop {
     width: 100%;
     margin-left: 30px;
+    padding-bottom: 30px;
 }
 
-.prints-img-mobile {
-    margin-left: 70px;
-     width: 200px;
-}
+
 
 .btn-outline-secondary {
     text-decoration: none
@@ -69,18 +67,3 @@ p {
 
 
  
-
-
-@media screen and (min-width: 768px) {
-    .prints-img-mobile{
-      display: none;
-    }
-    
-}
-
-@media screen and (max-width: 768px) {
-    .prints-img-desktop{
-     display: none;
-    }
-
-}
